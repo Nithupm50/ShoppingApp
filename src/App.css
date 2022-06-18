@@ -1,38 +1,446 @@
-.App {
-  text-align: center;
+.txt{
+  margin-top: -100px;
+    margin-left: 38px;
+    color: white;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.arrow{
+  height: 32px;
+  
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.arrow1{
+  height: 32px;
+  margin-left: 187px;
+ 
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.slider{
+  display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.count{
+  margin-top: -17px;
+}
+svg{
+   margin-right: 30px;
+}
+.nav{
+  background: #FFF0ED;
+  width: 100%;
+  height: 90px;
+  display: flex;
+  justify-content: space-between;
+  
+}
+.FaRegHeart{
+  margin-right: 50px;
+}
+.heart{
+  margin-right: 151px;
+  margin-top: 44px;
+}
+.drs{
+  color: white;
+  margin-top: -65px;
+  margin-left: 37px;
+ }
+ .wrd{
+  color: white;
+  margin-left: 37px;
+  margin-top: -22px;
+ }
+ .bars{
+  margin-left: 30px;
+  padding-top: 37px;
+ }
+.head3{
   display: flex;
   flex-direction: column;
+  /* justify-content: center; */
   align-items: center;
+}
+.section2{
+  display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.girl{
+  margin-left: 91px;
+  margin-top: 37px;
+  height: 334px;
+  width: 342px;
+  cursor: pointer;
+}
+.girl:hover { 
+  
+  height: 400px;
+  width: 400px;
+  
+  }
+  .girl1:hover { 
+    height: 400px;
+  width: 400px;
+
+    
+    }
+    .logo3{
+      display: flex;
+      justify-content: center;
+    }
+.girl1{
+  margin-left: 91px;
+  margin-top: 37px;
+  height: 334px;
+  width: 342px;
+  cursor: pointer;
+}
+.hover{
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+ 
+}
+
+
+.words{
+  margin-left: 256px;
+  font-size: 21px;
+  color: #000000;
+}
+.line{
+  margin-top: 120px;
+}
+.name{
+  margin-left: 95px;
+  cursor: pointer;
+}
+.product{
+  width: 615px;
+  margin-top: 20px;
+  margin-left: 75px;
+}
+.logo1{
+  margin-top: 64px;
+}
+.footer{
+  background: #D47070;
+  width: 100%;
+  height: 515px;
+}
+.pic2{
+  height: 677px;
+    margin: auto;
+    display: flex;
+}
+.sm{
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  margin-left: 761px;
+  margin-top: -122px;
+
+}
+.stars{
+  margin-left: 93px;
+}
+.content{
+  margin-left: 400px;
+    margin-top: 41px;
+}
+.headings{
+  display: flex;
+    justify-content: center;
+}
+.pro{
+  margin-right: 127px;
+}
+.media{
+  height: 54px;
+}
+.logos{
+  display: flex;
+}
+.logo2{
+  margin-left: 54px;
+}
+.follow{
   color: white;
+  display: flex;
+    justify-content: center;
+    margin-left: 700px;
+}
+.titl{
+font-weight: 700;
+color: #D47070;
+line-height: 29.26px;
+margin-left: 250px;
+font-size: 35px;
+line-height: 45.26px;
+}
+.title{
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 21.94px;
+  font-style: Montserrat;
+  color: #000000;
+}
+.img{
+  height: 109px;
+ 
 }
 
-.App-link {
-  color: #61dafb;
+.banner{
+  background: #FFE6E1;
+  height: 500px;
+  width: 100%;
+  display: flex;
+
+  justify-content: space-between;
+}
+/* .ootd{
+  background: #FFF0ED;
+  height: 500px;
+  width: 100%;
+} */
+hr{
+  width: 425px;
+  margin-top: 72px;
+}
+.head{
+  font-size: 71px;
+  font-weight: 800;
+  
+  color: #000000;
+}
+.extn{
+  font-size: 71px;
+  font-weight: 800;
+ 
+  color: #D47070;
+}
+.para{
+
+  font-weight: 500;
+
+  color: #000000;
+  font-size: large;
+}
+.btn{
+  background: #D47070;
+border-radius: 5px;
+border: none;
+color: white;
+height: 47px;
+width: 200px;
+cursor: pointer;
+
+font-weight: 700;
+}
+.btn:hover{
+  background-color: #ffa0a0;
+}
+.img1{
+  height: 555px;
+}
+.des-div{
+  margin-left: 100px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#container {
+  border: 1px solid #ccc;
+  overflow: scroll;
+  width: 200px;
+
 }
+.sub-title{
+  
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 12px;
+
+color: #000000;
+}
+.title-div{
+  display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    align-items: center;
+}
+.scroll-img{
+  overflow: scroll;
+  display: flex;
+  
+}
+.scroll-img::-webkit-scrollbar{
+  display: none;
+}
+
+
+.imgs{
+  margin-right: 6px;
+  margin-left: 30px;
+  cursor: pointer;
+}
+.img-div{
+  width: 66%;
+  height: 200px;
+  margin-right: 10px;
+  background: #8C8;
+  border-radius: 5px;
+  counter-increment: img-div;
+
+}
+@media screen and (max-width: 600px){
+   .img{
+    height: 93px;
+    margin-top: 1px;
+    margin-left: 80px;
+   }
+   .head{
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 29.26px;
+    margin-top: 108px;
+    margin-left: -49px;
+   }
+   .arrow{
+    height: 25px;
+   }
+   .arrow1{
+    height: 25px;
+    margin-left: 119px;
+   }
+  
+   .extn{
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 29.26px;
+   }
+   .para{
+    font-size: 9px;
+    font-weight: 500;
+    line-height: 10.97px;
+    margin-left: -44px;
+   }
+   .heart{
+    display: flex;
+    margin-left: 63px;
+   }
+
+   .btn{
+    width: 103px;
+    height: 28.09px;
+    font-size: 10px;
+    font-weight: 700;
+    margin-left: -47px;
+    margin-top: 21px;
+   }
+   .img1{
+    height: 269px;
+    margin-top: 78px;
+   }
+   .banner{
+    height: 321px;
+   }
+   .title{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.94px;
+    margin-top: 29px;
+   }
+   .sub-title{
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 12.19px;
+    margin-top: -8px;
+   }
+   .imgs{
+    margin-top: 29px;
+    height: 400px;
+   }
+   hr{
+    width: 270px;
+   }
+   .pic2{
+    height: 369px;
+   }
+   .titl{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29.26px;
+    margin-left: 46px;
+   }
+   .words{
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 14.64px;
+    margin-left: 49px;
+   }
+   .line{
+    margin-top: 57px;
+   }
+   .name{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17.07px;
+    margin-left: 26px;
+   }
+   .stars{
+    margin-left: 24px;
+   }
+   .logo2{
+    height: 93px;
+    margin-top: -40px;
+    margin-left: 15px;
+   }
+   .sm{
+    margin-left: 169px;
+    margin-top: -52px;
+   }
+   .pro-items{
+    margin-left: 34px;
+    margin-top: -61px;
+  
+   }
+   .pro{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17.07px;
+    margin-top: 114px;
+    margin-right: 46px;
+   }
+   .para8{
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 14.54px;
+   }
+   .pro1{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.63px;
+   }
+   .media{
+    height: 23px;
+   }
+   .follow{
+    margin-left: 160px;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 14.63px;
+   }
+   .girl{
+    height: 288px;
+    margin-left: 23px;
+    width: 174px;
+    cursor: pointer;
+   }
+  
+   .girl1{
+    margin-left: 22px;
+    height: 288px;
+    width: 174px;
+    cursor: pointer;
+   }
+
+}
+
