@@ -203,21 +203,10 @@ function App() {
           
          
          </div>
-         
         </div>
-        {/* <div className="content">
-          <p className="para8">Lorem Ipsum has been the industry's standard dummtext ever since <br/> the 1500s, when an unknown printer took a galley of type and <br/> scrambled it to make a type specimen book. It has survived not only <br/>five centuries, but also the leap into electronic typesetting,</p>
-         </div> */}
-         
-         
-
+       </div>
       </div>
-
-    </div>
-    
-   </div>
-      
-   
+     </div>
     </div>
   );
 }
