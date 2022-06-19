@@ -47,15 +47,15 @@ function App() {
 
      <div className="nav">
      <div className="bars">
-     <FaBars/>
+     <FaBars size={"30px"} />
      </div>
      <div className="logo">
      <img src="capricon.png.png" alt="" className="img" />
      </div>
      <div className="heart">
     
-     <FaRegHeart/>
-     <FaShoppingCart/>
+     <FaRegHeart size={"30px"}/>
+     <FaShoppingCart size={"30px"}/>
      </div>
     
 
