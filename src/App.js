@@ -8,8 +8,6 @@ import './App.css';
 
 function App() {
  
-  
-  
   const [scroll, setScroll] = useState(0)
 
 
@@ -23,11 +21,6 @@ function App() {
     })
   })
 
-
-  
-
-
-  
 
   const sideScroll = (
     element: HTMLDivElement,
@@ -50,8 +43,6 @@ function App() {
 
   return (
     
-   
-
     <div className="App">
 
      <div className="nav">
