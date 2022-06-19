@@ -78,7 +78,9 @@ function App() {
       <p className='sub-title'>Visit our shop to see amazing creations from our fashion house</p>
       </div>
       <div className="scroll-img" ref={contentWrapper}>
-     
+      <img src='vector 3.png' className='arrow'  onClick={() => {
+            sideScroll(contentWrapper.current, 25, 100, -350);
+          }} /> 
          <div className="two"> 
         <img src="whitedressgirl.jpg" alt="" className="imgs" />
         <h2 className="drs">Summer Dress</h2>
@@ -98,20 +100,16 @@ function App() {
         <img src="whitedressgirl.jpg" alt="" className="imgs" />
         <h2 className="drs">Summer Dress</h2>
         <p className="wrd">55 items</p>
+      
         </div>
+        <img src='vector 2.png' className='arrow1' onClick={() => {
+            sideScroll(contentWrapper.current, 25, 100, 350);
+          }}/>
         
        
         
       </div>
-      <div className='slider'>
-      <img src='vector 3.png' className='arrow'  onClick={() => {
-            sideScroll(contentWrapper.current, 25, 100, -350);
-          }} /> 
-        
-      <img src='vector 2.png' className='arrow1' onClick={() => {
-            sideScroll(contentWrapper.current, 25, 100, 350);
-          }}/>
-        </div>
+     
 
         <hr/>
      </div>

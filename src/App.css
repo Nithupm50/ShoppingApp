@@ -5,11 +5,22 @@
 }
 .arrow{
   height: 32px;
+  left: 3% !important;
+    z-index: 1;
+    position: absolute;
+    margin-top: 261px;
+    margin-left: -11px;
+    filter: opacity(1.4) drop-shadow(0 0 0 black); 
   
 }
 .arrow1{
   height: 32px;
   margin-left: 187px;
+  right: 3% !important;
+  z-index: 1;
+  position: absolute;
+  margin-top: 261px;
+  filter: opacity(1.4) drop-shadow(0 0 0 black); 
  
 }
 .slider{
