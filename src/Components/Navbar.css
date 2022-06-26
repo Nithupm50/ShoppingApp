@@ -6,8 +6,19 @@
     justify-content: space-between;
     
   }
+  .logo{
+    display: flex;
+    margin: auto;
+  }
   .FaRegHeart{
     margin-right: 50px;
+  }
+  .find-icon{
+    height: 34px;
+    width: 48px;
+    margin-top: -34px;
+    margin-left: 51px;
+   
   }
   .heart{
     margin-right: 151px;
@@ -17,8 +28,20 @@
     margin-left: 30px;
     padding-top: 37px;
    }
+   .find{
+    margin-top: 43px;
+    margin-left: 87px;
+    height: 32px;
+    width: 283px;
+    border: none;
+    background: #FFF0ED;
+   }
    .img{
     height: 109px;
    
   }
-  
+  @media screen and (max-width: 600px){
+    .search{
+      display: none;
+    }
+  }
