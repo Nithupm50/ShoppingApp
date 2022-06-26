@@ -1,8 +1,9 @@
 import React from 'react'
 import { useState, useRef, useEffect } from 'react'
 import '../Components/Flash.css'
-
-
+import {FaRegHeart} from "react-icons/fa"
+import {FaShoppingCart} from "react-icons/fa"
+import {FaSearch} from "react-icons/fa"
  
 
 function Flash() {
@@ -59,30 +60,85 @@ function Flash() {
         <div className="deals">
         <div className="two"> 
         <img src="tshirts.webp" alt="" className="imags" />
+         <info>
+          <icon>
+            <FaRegHeart/>
+          </icon>
+          <icon>
+            <FaShoppingCart/>
+          </icon>
+          <icon>
+            <FaSearch/>
+          </icon>
+        </info>
         <p className="drss">Frills cotton t-shirt</p>
         <h3 className="wrdd">-50% <span className="price">Rs.895</span></h3>
         </div>
 
-        <div className="three">
+        <div className="six">
         <img src="tee.webp" alt="" className="imags" />
+        <info>
+          <icon>
+            <FaRegHeart/>
+          </icon>
+          <icon>
+            <FaShoppingCart/>
+          </icon>
+          <icon>
+            <FaSearch/>
+          </icon>
+        </info>
         <p className="drss">Essential cotton-blend T-shirt</p>
         <h3 className="wrdd">-58% <span className="price">Rs.500</span></h3>
         </div>
 
         <div className="three">
         <img src="yellow.webp" alt="" className="imags" />
+        <info>
+          <icon>
+            <FaRegHeart/>
+          </icon>
+          <icon>
+            <FaShoppingCart/>
+          </icon>
+          <icon>
+            <FaSearch/>
+          </icon>
+        </info>
         <p className="drss">Recycled cotton log t-shirt</p>
         <h3 className="wrdd">-50% <span className="price">Rs.295</span></h3>
         </div>
 
-        <div className="three">
+        <div className="four">
         <img src="brown.webp" alt="" className="imags" />
+        <info>
+          <icon>
+            <FaRegHeart/>
+          </icon>
+          <icon>
+            <FaShoppingCart/>
+          </icon>
+          <icon>
+            <FaSearch/>
+          </icon>
+        </info>
         <p className="drss">Long sleeve T-shirt</p>
         <h3 className="wrdd">-58% <span className="price">Rs.400</span></h3>
         </div>
 
-        <div className="three">
+        <div className="five">
         <img src="white.webp" alt="" className="imags" />
+        <info>
+          <icon>
+            <FaRegHeart/>
+          </icon>
+          <icon>
+            <FaShoppingCart/>
+          </icon>
+          <icon>
+            <FaSearch/>
+          </icon>
+        </info>
         <p className="drss">Logo cotton T-shirt</p>
         <h3 className="wrdd">-50% <span className="price">Rs.395</span></h3>
         </div>

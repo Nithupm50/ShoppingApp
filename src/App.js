@@ -31,6 +31,7 @@ function App() {
       <div className="hover">
        <div className="card1">
        <img src="khaki.webp" alt="" className="girl" />
+      
        <h3 className="name">100% cotton shirt</h3>
        <h3 className="name">Rs. 3,590.00</h3>
        <div className="stars">

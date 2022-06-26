@@ -11,16 +11,84 @@
   .end{
     margin-right: 32px;
   }
+  info{
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.2);
+    margin-left: 42px;
+    height: 335px;
+    width: 239px;
+    z-index: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease;
+    cursor: pointer;
+  }
+  
   .deals{
     display: flex;
     flex-direction: row;
+    
   }
+  .two{
+    position: relative;
+  }
+  .two:hover info{
+    opacity: 1;
+  }
+  .three{
+    position: relative;
+  }
+  .three:hover info{
+    opacity: 1;
+  }
+  .six{
+    position: relative;
+  }
+  .six:hover info{
+    opacity: 1;
+  }
+  .four{
+    position: relative;
+  }
+  .four:hover info{
+    opacity: 1;
+  }
+  .five{
+    position: relative;
+  }
+  .five:hover info{
+    opacity: 1;
+  }
+
   .imags{
     height: 335px;
     margin-left: 42px;
   }
   .drss{
     margin-left: 49px;
+  }
+ 
+  svg{
+    margin-top: 5px;
+  }
+  icon{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    transition: all 0.5s ease;
+  }
+  icon:hover{
+    background-color: #e9f5f5;
+      transform: scale(1.1);
   }
   .wrdd{
     margin-left: 49px;
