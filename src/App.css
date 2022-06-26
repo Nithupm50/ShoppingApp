@@ -15,9 +15,9 @@
   cursor: pointer;
   font-weight: 700;
 }
-.cart:hover{
+/* .cart:hover
   background-color: #ffa0a0;
-}
+} */
 .cart:active{
   transform: translateY(2px);
 }
