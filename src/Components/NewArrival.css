@@ -1,0 +1,15 @@
+.cart{
+    margin-left: 199px;
+    margin-top: 27px;
+    background: #D47070;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    height: 47px;
+    width: 200px;
+    cursor: pointer;
+    font-weight: 700;
+}
+.cart:hover{
+    background-color: #ffa0a0;
+}

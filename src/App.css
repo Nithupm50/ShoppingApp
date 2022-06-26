@@ -3,9 +3,27 @@
     margin-left: 38px;
     color: white;
 }
+.cart{
+  margin-left: 96px;
+  margin-top: 27px;
+  background: #D47070;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  height: 47px;
+  width: 200px;
+  cursor: pointer;
+  font-weight: 700;
+}
+.cart:hover{
+  background-color: #ffa0a0;
+}
+.cart:active{
+  transform: translateY(2px);
+}
 .arrow{
-  height: 32px;
-  left: 3% !important;
+    height: 32px;
+    left: 1% !important;
     z-index: 1;
     position: absolute;
     margin-top: 261px;
@@ -13,10 +31,11 @@
     filter: opacity(1.4) drop-shadow(0 0 0 black); 
   
 }
+
 .arrow1{
   height: 32px;
   margin-left: 187px;
-  right: 3% !important;
+  right: 1% !important;
   z-index: 1;
   position: absolute;
   margin-top: 261px;
@@ -34,21 +53,7 @@
 svg{
   margin-right: 11px;
 }
-.nav{
-  background: #FFF0ED;
-  width: 100%;
-  height: 90px;
-  display: flex;
-  justify-content: space-between;
-  
-}
-.FaRegHeart{
-  margin-right: 50px;
-}
-.heart{
-  margin-right: 151px;
-  margin-top: 38px;
-}
+
 .drs{
   color: white;
   margin-top: -65px;
@@ -59,10 +64,7 @@ svg{
   margin-left: 37px;
   margin-top: -22px;
  }
- .bars{
-  margin-left: 30px;
-  padding-top: 37px;
- }
+
 .head3{
   display: flex;
   flex-direction: column;
@@ -129,7 +131,7 @@ svg{
   margin-left: 75px;
 }
 .logo1{
-  margin-top: 64px;
+  margin-top: 110px;
 }
 .footer{
   background: #D47070;
@@ -193,10 +195,7 @@ line-height: 45.26px;
   font-style: Montserrat;
   color: #000000;
 }
-.img{
-  height: 109px;
- 
-}
+
 
 .banner{
   background: #FFE6E1;
@@ -250,6 +249,7 @@ font-weight: 700;
 }
 .img1{
   height: 555px;
+ 
 }
 .des-div{
   margin-left: 100px;
@@ -291,6 +291,8 @@ color: #000000;
   margin-right: 6px;
   margin-left: 30px;
   cursor: pointer;
+  height: 600px;
+  width: 398px;
 }
 .img-div{
   width: 66%;
@@ -306,6 +308,10 @@ color: #000000;
     height: 93px;
     margin-top: 1px;
     margin-left: 80px;
+   }
+   .imgs{
+    height: 403px;
+    width: 260px;
    }
    .head{
     font-size: 24px;
@@ -335,8 +341,19 @@ color: #000000;
    }
    .heart{
     display: flex;
-    margin-left: 63px;
+    margin-left: 40px;
    }
+   .girl:hover { 
+  
+    display: none;
+    
+    }
+    .girl1:hover { 
+
+    display: none;
+  
+      
+      }
 
    .btn{
     width: 103px;
@@ -365,9 +382,29 @@ color: #000000;
     line-height: 12.19px;
     margin-top: -8px;
    }
-   .imgs{
+   .deals{
+   
+    margin-left: 1px;
+   }
+   .deal{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.94px;
     margin-top: 29px;
-    height: 400px;
+   }
+   .timer{
+   
+    font-size: 12px;
+   }
+   .cart{
+    font-size: 9px;
+    width: 84px;
+    margin-left: 18px;
+   }
+   .imags{
+    margin-top: 33px;
+   
+    /* height: 249px; */
    }
    hr{
     width: 270px;
@@ -391,7 +428,7 @@ color: #000000;
     margin-top: 57px;
    }
    .name{
-    font-size: 14px;
+    font-size: 11px;
     font-weight: 600;
     line-height: 17.07px;
     margin-left: 26px;
@@ -453,5 +490,32 @@ color: #000000;
     cursor: pointer;
    }
 
-}
 
+}
+@media screen and (min-width: 700px ) and ( max-width:1200px){
+  .img1{
+    margin-left: -89px;
+    height: 493px;
+  }
+  .head{
+    font-size: 52px;
+    margin-top: 116px;
+  }
+  .extn{
+    font-size: 52px;
+  }
+  .imgs{
+    height: 508px;
+  }
+  .girl1{
+    width: 265px;
+  }
+  .girl{
+    width: 265px;
+  }
+  .deals{
+    overflow-y: scroll;
+  }
+ 
+
+ }

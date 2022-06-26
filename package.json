@@ -6,9 +6,11 @@
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^12.1.5",
     "@testing-library/user-event": "^13.5.0",
+    "firebase": "^9.8.3",
     "flickity": "^3.0.0",
     "font-awesome": "^4.7.0",
     "gh-pages": "^4.0.0",
+    "homepage": "https://Nithupm50.github.io/ShoppingApp/",
     "jquery": "^3.6.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
@@ -18,8 +20,7 @@
     "react-scripts": "5.0.0",
     "react-scroll": "^1.8.7",
     "react-simple-image-slider": "^2.4.1",
-    "web-vitals": "^2.1.4",
-    "homepage": "https://Nithupm50.github.io/ShoppingApp/"
+    "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -28,7 +29,6 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
-    
   },
   "eslintConfig": {
     "extends": [

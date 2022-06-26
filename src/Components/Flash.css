@@ -1,0 +1,51 @@
+.flash_title{
+    display: flex;
+    justify-content: space-between;
+   
+  }
+  .timer{
+    margin-top: -73px;
+    margin-right: 22px;
+    float: right;
+  }
+  .end{
+    margin-right: 32px;
+  }
+  .deals{
+    display: flex;
+    flex-direction: row;
+  }
+  .imags{
+    height: 335px;
+    margin-left: 42px;
+  }
+  .drss{
+    margin-left: 49px;
+  }
+  .wrdd{
+    margin-left: 49px;
+    margin-top: -13px;
+    color: red;
+  }
+  .price{
+    color: black;
+  }
+  .deals{
+    
+    margin-left: 36px;
+  }
+  .deals::-webkit-scrollbar{
+    display: none;
+  }
+  .deal{
+    margin-left: 22px;
+  }
+  @media screen and (max-width: 600px){
+    .deal{
+        margin-left: 1px;
+    }
+    .deals{
+      display: flex;
+      flex-direction: column;
+    }
+  }
